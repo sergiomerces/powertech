@@ -11,4 +11,4 @@ if(combustivelGasolina == true){
 }
 
 console.log("O custo da viagem foi " + custoViagem.toFixed(2));
-if(combustivelGasolina == true) : console.log('Carro a Gasolina') ? console.log('Carro a Alcool');
+(combustivelGasolina == true) ? console.log('Carro a Gasolina') : console.log('Carro a Alcool');
