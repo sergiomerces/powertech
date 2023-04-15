@@ -11,7 +11,7 @@ console.log(alunos[0]);
 alunos[3] = 'Vinicius';
 console.log(alunos);
 
-//para adicionar um elemento ao fim da lista 
+//para adicionar um elemento ao fim da lista   
 alunos.push('Renan');
 console.log(alunos);
 
