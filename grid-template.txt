@@ -1,0 +1,7 @@
+GRID TEMPLATE
+
+Definir o container com display tipo grid
+
+Para seprar o layout o container em duas colunas, use  propriedade 
+grid-template-column com os valores 1fr 1fr; isso criará duas colunas proporcionais
+

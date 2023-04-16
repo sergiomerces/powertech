@@ -1,0 +1,22 @@
+SERVIDOR HTTP-SERVER
+
+Enquanto desenvolvemos aplicações web é preciso estar atento a como o conteú-
+do é renderizado na tela, princialmente observando o conceito de mobile first.
+
+Uma ferramenta simples que permite acompanhar em tempo real o código que es-
+tamos escrevendo é o http-server.
+
+Como pré-requisito é preciso ter o Nodejs instalado localmente na máquina e o
+gestor de pacotes NPM.
+
+Para instalar o http-server usamos o script:
+
+	$ sudo npm install -g http-server
+
+Para subir o servidor e acessar o conteúdo web em outros dispositivos na mesma
+rede basta acessar o diretório da aplicação e usar o comando:
+
+	$ http-server ./
+
+O servidor vai retornar o endereço de IP e a porta, ao digitarmos o endereço
+num navegador, acessaremos a aplicação.
